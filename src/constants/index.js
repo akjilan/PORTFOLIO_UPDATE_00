@@ -22,6 +22,9 @@ import {
 import project01 from "/project01.png";
 import project02 from "/project02.png";
 import project03 from "/project03.png";
+import ins from "../assets/images/ins.png"
+import projectTracker from "../assets/images/projectTracker.png"
+import jobhub from "../assets/images/jobhub.png"
 
 
 export const navLinks = [
@@ -206,7 +209,7 @@ const projects = [
   {
     name: "INSTITUTION",
     description:
-      "Developed a comprehensive MERN stack-based institution portal enabling dynamic management of online admissions, result publication, notices, and institutional information through an intuitive admin panel. Implemented technologies include MongoDB, Express.js, React.js, and Node.js, ensuring seamless functionality and efficient information dissemination.",
+      "Developed a comprehensive MERN stack-based institution portal enabling dynamic management of online admissions, result publication, notices, and institutional information through an intuitive admin panel. ",
     tags: [
       {
         name: "REACTJS",
@@ -225,7 +228,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: project01,
+    image: ins,
     // source_code_link: "https://github.com/akjilan/Project-EEECLUBOFHSTU",
     github_code_link:"https://github.com/akjilan/INSTITUTE_PROJECT",
     source_link:"https://institution-client.netlify.app",
@@ -233,7 +236,7 @@ const projects = [
   {
     name: "JOBHUB",
     description:
-      "JobHub Platform was created to bridge the gap between job seekers and opportunities. This full-stack web application facilitates users in exploring, applying, and tracking job applications. The project involved implementing user authentication, real-time statistics, and a dynamic blog section for industry insights.",
+      "JobHub Platform was created to bridge the gap between job seekers and opportunities. This full-stack web application facilitates users in exploring, applying, and tracking job applications. T",
     tags: [
       {
         name: "REACTJS",
@@ -252,14 +255,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: project01,
+    image: jobhub,
     github_code_link:"https://github.com/akjilan/JOBHUB",
     source_link:"https://jobhub-jilan.web.app/",
   },
   {
     name: "PROJECT TRACKER",
     description:
-      "Designed and implemented a robust project tracker system using MERN stack technologies, encompassing features such as real-time project updates, bug-fixing orders, discussions, and task assignments. The platform enhances collaboration and project management efficiency, employing MongoDB, Express.js, React.js, and Node.js to deliver a seamless user experience.",
+      "Designed and implemented a robust project tracker system using MERN stack technologies, encompassing features such as real-time project updates, bug-fixing orders, discussions, and task assignments. ",
     tags: [
       {
         name: "REACTJS",
@@ -274,7 +277,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: project01,
+    image: projectTracker,
     github_code_link:"https://github.com/akjilan/PROJECT-MANAGEMENT-24/tree/main/frontend",
     source_link:"https://project-tracker-official.netlify.app",
   },
@@ -327,37 +330,7 @@ const projects = [
     github_code_link:"https://github.com/akjilan/Countries-Food_API",
     source_link: "https://akjilan.github.io/Countries-Food_API/",
   },
-  {
-    name: "Restaurant",
-    description:
-      "This project involved a website of a restaurant using HTML, CSS, aos and Bootstrap. The purpose of this project was to practice building different designing layouts and to gain a better understanding of variation in web interface.",
-    tags: [
-      {
-        name: "HTML5",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS3",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "AOS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JAVASCRIPT",
-        color: "green-text-gradient",
-      },
-      {
-        name: "BOOTSTRAP",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project03,
-    // source_code_link: "https://github.com/akjilan/Countries-Food_API",
-    github_code_link:"https://github.com/akjilan/Restaurant-Project",
-    source_link: "https://akjilan.github.io/Restaurant-Project",
-  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
