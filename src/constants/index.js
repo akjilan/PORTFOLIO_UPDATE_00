@@ -327,6 +327,37 @@ const projects = [
     github_code_link:"https://github.com/akjilan/Countries-Food_API",
     source_link: "https://akjilan.github.io/Countries-Food_API/",
   },
+  {
+    name: "Restaurant",
+    description:
+      "This project involved a website of a restaurant using HTML, CSS, aos and Bootstrap. The purpose of this project was to practice building different designing layouts and to gain a better understanding of variation in web interface.",
+    tags: [
+      {
+        name: "HTML5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS3",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AOS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JAVASCRIPT",
+        color: "green-text-gradient",
+      },
+      {
+        name: "BOOTSTRAP",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project03,
+    // source_code_link: "https://github.com/akjilan/Countries-Food_API",
+    github_code_link:"https://github.com/akjilan/Restaurant-Project",
+    source_link: "https://akjilan.github.io/Restaurant-Project",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
